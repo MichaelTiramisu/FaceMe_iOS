@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10FF9396A349994BD319E391 /* libPods-FaceMeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B70C75B54B5F33B0EF25BCC /* libPods-FaceMeUITests.a */; };
+		29B198BC1FDDA21700507B7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29B198BB1FDDA21700507B7F /* Assets.xcassets */; };
+		29B198CC1FDDA21700507B7F /* FaceMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B198CB1FDDA21700507B7F /* FaceMeTests.m */; };
+		29B198D71FDDA21700507B7F /* FaceMeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B198D61FDDA21700507B7F /* FaceMeUITests.m */; };
+		29CE76F11FDDA54500A406FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CE76E41FDDA54500A406FA /* ViewController.m */; };
+		29CE76F21FDDA54500A406FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29CE76E91FDDA54500A406FA /* Main.storyboard */; };
+		29CE76F31FDDA54500A406FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29CE76EC1FDDA54500A406FA /* LaunchScreen.storyboard */; };
+		29CE76F41FDDA54500A406FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CE76EE1FDDA54500A406FA /* main.m */; };
+		29CE76F51FDDA54500A406FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CE76EF1FDDA54500A406FA /* AppDelegate.m */; };
+		4CF409D9C5D266712FB26E00 /* libPods-FaceMeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1ACAA53F499E8D670EE1FA0 /* libPods-FaceMeTests.a */; };
+		D725A0CB42028735189A3C66 /* libPods-FaceMe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 356514EA33FEB153024AE4A7 /* libPods-FaceMe.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29B198C81FDDA21700507B7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B198A71FDDA21700507B7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29B198AE1FDDA21700507B7F;
+			remoteInfo = FaceMe;
+		};
+		29B198D31FDDA21700507B7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B198A71FDDA21700507B7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29B198AE1FDDA21700507B7F;
+			remoteInfo = FaceMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29B198AF1FDDA21700507B7F /* FaceMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29B198BB1FDDA21700507B7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29B198C71FDDA21700507B7F /* FaceMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29B198CB1FDDA21700507B7F /* FaceMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceMeTests.m; sourceTree = "<group>"; };
+		29B198CD1FDDA21700507B7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29B198D21FDDA21700507B7F /* FaceMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29B198D61FDDA21700507B7F /* FaceMeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceMeUITests.m; sourceTree = "<group>"; };
+		29B198D81FDDA21700507B7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29CE76E41FDDA54500A406FA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		29CE76E91FDDA54500A406FA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		29CE76EA1FDDA54500A406FA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		29CE76EC1FDDA54500A406FA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29CE76ED1FDDA54500A406FA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		29CE76EE1FDDA54500A406FA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29CE76EF1FDDA54500A406FA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		29CE76F01FDDA54500A406FA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30D88B5A14B12E5AF858673E /* Pods-FaceMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-FaceMe/Pods-FaceMe.release.xcconfig"; sourceTree = "<group>"; };
+		356514EA33FEB153024AE4A7 /* libPods-FaceMe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FaceMe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37111F8863DF90D7EFAA94F1 /* Pods-FaceMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FaceMe/Pods-FaceMe.debug.xcconfig"; sourceTree = "<group>"; };
+		4BA67D4F673E0A9C5CCBF06C /* Pods-FaceMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceMeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FaceMeTests/Pods-FaceMeTests.release.xcconfig"; sourceTree = "<group>"; };
+		5F877E44654A568CB54F94DD /* Pods-FaceMeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceMeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FaceMeTests/Pods-FaceMeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B70C75B54B5F33B0EF25BCC /* libPods-FaceMeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FaceMeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CE4FCE3CB4A2529C547935 /* Pods-FaceMeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceMeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FaceMeUITests/Pods-FaceMeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B1ACAA53F499E8D670EE1FA0 /* libPods-FaceMeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FaceMeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F161AFDB9463497D1F144370 /* Pods-FaceMeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceMeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FaceMeUITests/Pods-FaceMeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29B198AC1FDDA21700507B7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D725A0CB42028735189A3C66 /* libPods-FaceMe.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29B198C41FDDA21700507B7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF409D9C5D266712FB26E00 /* libPods-FaceMeTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29B198CF1FDDA21700507B7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10FF9396A349994BD319E391 /* libPods-FaceMeUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29B198A61FDDA21700507B7F = {
+			isa = PBXGroup;
+			children = (
+				29B198B11FDDA21700507B7F /* FaceMe */,
+				29B198CA1FDDA21700507B7F /* FaceMeTests */,
+				29B198D51FDDA21700507B7F /* FaceMeUITests */,
+				29B198B01FDDA21700507B7F /* Products */,
+				F05CC44238DBA569BD50D03C /* Pods */,
+				71C83F06D94DC063A511CF30 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		29B198B01FDDA21700507B7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29B198AF1FDDA21700507B7F /* FaceMe.app */,
+				29B198C71FDDA21700507B7F /* FaceMeTests.xctest */,
+				29B198D21FDDA21700507B7F /* FaceMeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B198B11FDDA21700507B7F /* FaceMe */ = {
+			isa = PBXGroup;
+			children = (
+				29CE76E31FDDA54500A406FA /* Classes */,
+				29CE76EB1FDDA54500A406FA /* SupportingFiles */,
+				29B198BB1FDDA21700507B7F /* Assets.xcassets */,
+			);
+			path = FaceMe;
+			sourceTree = "<group>";
+		};
+		29B198CA1FDDA21700507B7F /* FaceMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				29B198CB1FDDA21700507B7F /* FaceMeTests.m */,
+				29B198CD1FDDA21700507B7F /* Info.plist */,
+			);
+			path = FaceMeTests;
+			sourceTree = "<group>";
+		};
+		29B198D51FDDA21700507B7F /* FaceMeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				29B198D61FDDA21700507B7F /* FaceMeUITests.m */,
+				29B198D81FDDA21700507B7F /* Info.plist */,
+			);
+			path = FaceMeUITests;
+			sourceTree = "<group>";
+		};
+		29CE76E31FDDA54500A406FA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				29CE76E41FDDA54500A406FA /* ViewController.m */,
+				29CE76E51FDDA54500A406FA /* Main */,
+				29CE76EA1FDDA54500A406FA /* ViewController.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		29CE76E51FDDA54500A406FA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				29CE76E61FDDA54500A406FA /* Controller */,
+				29CE76E71FDDA54500A406FA /* Model */,
+				29CE76E81FDDA54500A406FA /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		29CE76E61FDDA54500A406FA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		29CE76E71FDDA54500A406FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		29CE76E81FDDA54500A406FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				29CE76E91FDDA54500A406FA /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		29CE76EB1FDDA54500A406FA /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				29CE76EC1FDDA54500A406FA /* LaunchScreen.storyboard */,
+				29CE76ED1FDDA54500A406FA /* AppDelegate.h */,
+				29CE76EE1FDDA54500A406FA /* main.m */,
+				29CE76EF1FDDA54500A406FA /* AppDelegate.m */,
+				29CE76F01FDDA54500A406FA /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		71C83F06D94DC063A511CF30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				356514EA33FEB153024AE4A7 /* libPods-FaceMe.a */,
+				B1ACAA53F499E8D670EE1FA0 /* libPods-FaceMeTests.a */,
+				7B70C75B54B5F33B0EF25BCC /* libPods-FaceMeUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F05CC44238DBA569BD50D03C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37111F8863DF90D7EFAA94F1 /* Pods-FaceMe.debug.xcconfig */,
+				30D88B5A14B12E5AF858673E /* Pods-FaceMe.release.xcconfig */,
+				5F877E44654A568CB54F94DD /* Pods-FaceMeTests.debug.xcconfig */,
+				4BA67D4F673E0A9C5CCBF06C /* Pods-FaceMeTests.release.xcconfig */,
+				F161AFDB9463497D1F144370 /* Pods-FaceMeUITests.debug.xcconfig */,
+				B0CE4FCE3CB4A2529C547935 /* Pods-FaceMeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29B198AE1FDDA21700507B7F /* FaceMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29B198DB1FDDA21700507B7F /* Build configuration list for PBXNativeTarget "FaceMe" */;
+			buildPhases = (
+				5EC3FE3291A8892338B1738D /* [CP] Check Pods Manifest.lock */,
+				29B198AB1FDDA21700507B7F /* Sources */,
+				29B198AC1FDDA21700507B7F /* Frameworks */,
+				29B198AD1FDDA21700507B7F /* Resources */,
+				B476316A9E4F56B4BD3B946B /* [CP] Embed Pods Frameworks */,
+				B9C7FB12F5FF5CAF02BABDBE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceMe;
+			productName = FaceMe;
+			productReference = 29B198AF1FDDA21700507B7F /* FaceMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29B198C61FDDA21700507B7F /* FaceMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29B198DE1FDDA21700507B7F /* Build configuration list for PBXNativeTarget "FaceMeTests" */;
+			buildPhases = (
+				49476F88AC2DF66EAE080ABB /* [CP] Check Pods Manifest.lock */,
+				29B198C31FDDA21700507B7F /* Sources */,
+				29B198C41FDDA21700507B7F /* Frameworks */,
+				29B198C51FDDA21700507B7F /* Resources */,
+				212DDCFB1686C0E0B42A9CF6 /* [CP] Embed Pods Frameworks */,
+				EEE3F00BEB35B41758671CD6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29B198C91FDDA21700507B7F /* PBXTargetDependency */,
+			);
+			name = FaceMeTests;
+			productName = FaceMeTests;
+			productReference = 29B198C71FDDA21700507B7F /* FaceMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		29B198D11FDDA21700507B7F /* FaceMeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29B198E11FDDA21700507B7F /* Build configuration list for PBXNativeTarget "FaceMeUITests" */;
+			buildPhases = (
+				341FB447830751FC5F1B60B9 /* [CP] Check Pods Manifest.lock */,
+				29B198CE1FDDA21700507B7F /* Sources */,
+				29B198CF1FDDA21700507B7F /* Frameworks */,
+				29B198D01FDDA21700507B7F /* Resources */,
+				60B06722AE5A569E4CF899D4 /* [CP] Embed Pods Frameworks */,
+				14AD49207664D582577B61BA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29B198D41FDDA21700507B7F /* PBXTargetDependency */,
+			);
+			name = FaceMeUITests;
+			productName = FaceMeUITests;
+			productReference = 29B198D21FDDA21700507B7F /* FaceMeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B198A71FDDA21700507B7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = SiyangLiu;
+				TargetAttributes = {
+					29B198AE1FDDA21700507B7F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					29B198C61FDDA21700507B7F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 29B198AE1FDDA21700507B7F;
+					};
+					29B198D11FDDA21700507B7F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 29B198AE1FDDA21700507B7F;
+					};
+				};
+			};
+			buildConfigurationList = 29B198AA1FDDA21700507B7F /* Build configuration list for PBXProject "FaceMe" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29B198A61FDDA21700507B7F;
+			productRefGroup = 29B198B01FDDA21700507B7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29B198AE1FDDA21700507B7F /* FaceMe */,
+				29B198C61FDDA21700507B7F /* FaceMeTests */,
+				29B198D11FDDA21700507B7F /* FaceMeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29B198AD1FDDA21700507B7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29CE76F31FDDA54500A406FA /* LaunchScreen.storyboard in Resources */,
+				29B198BC1FDDA21700507B7F /* Assets.xcassets in Resources */,
+				29CE76F21FDDA54500A406FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29B198C51FDDA21700507B7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29B198D01FDDA21700507B7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14AD49207664D582577B61BA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FaceMeUITests/Pods-FaceMeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		212DDCFB1686C0E0B42A9CF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FaceMeTests/Pods-FaceMeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		341FB447830751FC5F1B60B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FaceMeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49476F88AC2DF66EAE080ABB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FaceMeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EC3FE3291A8892338B1738D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FaceMe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60B06722AE5A569E4CF899D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FaceMeUITests/Pods-FaceMeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B476316A9E4F56B4BD3B946B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FaceMe/Pods-FaceMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9C7FB12F5FF5CAF02BABDBE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FaceMe/Pods-FaceMe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEE3F00BEB35B41758671CD6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FaceMeTests/Pods-FaceMeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29B198AB1FDDA21700507B7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29CE76F41FDDA54500A406FA /* main.m in Sources */,
+				29CE76F11FDDA54500A406FA /* ViewController.m in Sources */,
+				29CE76F51FDDA54500A406FA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29B198C31FDDA21700507B7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29B198CC1FDDA21700507B7F /* FaceMeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29B198CE1FDDA21700507B7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29B198D71FDDA21700507B7F /* FaceMeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29B198C91FDDA21700507B7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29B198AE1FDDA21700507B7F /* FaceMe */;
+			targetProxy = 29B198C81FDDA21700507B7F /* PBXContainerItemProxy */;
+		};
+		29B198D41FDDA21700507B7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29B198AE1FDDA21700507B7F /* FaceMe */;
+			targetProxy = 29B198D31FDDA21700507B7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		29B198D91FDDA21700507B7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		29B198DA1FDDA21700507B7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29B198DC1FDDA21700507B7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37111F8863DF90D7EFAA94F1 /* Pods-FaceMe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6FP6GM3TE;
+				INFOPLIST_FILE = "$(SRCROOT)/FaceMe/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangguan.FaceMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29B198DD1FDDA21700507B7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30D88B5A14B12E5AF858673E /* Pods-FaceMe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6FP6GM3TE;
+				INFOPLIST_FILE = "$(SRCROOT)/FaceMe/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangguan.FaceMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		29B198DF1FDDA21700507B7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F877E44654A568CB54F94DD /* Pods-FaceMeTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6FP6GM3TE;
+				INFOPLIST_FILE = FaceMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangguan.FaceMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceMe.app/FaceMe";
+			};
+			name = Debug;
+		};
+		29B198E01FDDA21700507B7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BA67D4F673E0A9C5CCBF06C /* Pods-FaceMeTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6FP6GM3TE;
+				INFOPLIST_FILE = FaceMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangguan.FaceMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceMe.app/FaceMe";
+			};
+			name = Release;
+		};
+		29B198E21FDDA21700507B7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F161AFDB9463497D1F144370 /* Pods-FaceMeUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6FP6GM3TE;
+				INFOPLIST_FILE = FaceMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangguan.FaceMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FaceMe;
+			};
+			name = Debug;
+		};
+		29B198E31FDDA21700507B7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0CE4FCE3CB4A2529C547935 /* Pods-FaceMeUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6FP6GM3TE;
+				INFOPLIST_FILE = FaceMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangguan.FaceMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FaceMe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29B198AA1FDDA21700507B7F /* Build configuration list for PBXProject "FaceMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29B198D91FDDA21700507B7F /* Debug */,
+				29B198DA1FDDA21700507B7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29B198DB1FDDA21700507B7F /* Build configuration list for PBXNativeTarget "FaceMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29B198DC1FDDA21700507B7F /* Debug */,
+				29B198DD1FDDA21700507B7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29B198DE1FDDA21700507B7F /* Build configuration list for PBXNativeTarget "FaceMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29B198DF1FDDA21700507B7F /* Debug */,
+				29B198E01FDDA21700507B7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29B198E11FDDA21700507B7F /* Build configuration list for PBXNativeTarget "FaceMeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29B198E21FDDA21700507B7F /* Debug */,
+				29B198E31FDDA21700507B7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B198A71FDDA21700507B7F /* Project object */;
+}
