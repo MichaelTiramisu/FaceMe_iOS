@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TakePictureViewController.h
 //  FaceMe
 //
 //  Created by SiyangLiu on 2017/12/10.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TakePictureViewController : UIViewController
 
 @end
-

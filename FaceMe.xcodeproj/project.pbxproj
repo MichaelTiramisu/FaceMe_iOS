@@ -11,11 +11,14 @@
 		29B198BC1FDDA21700507B7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29B198BB1FDDA21700507B7F /* Assets.xcassets */; };
 		29B198CC1FDDA21700507B7F /* FaceMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B198CB1FDDA21700507B7F /* FaceMeTests.m */; };
 		29B198D71FDDA21700507B7F /* FaceMeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B198D61FDDA21700507B7F /* FaceMeUITests.m */; };
-		29CE76F11FDDA54500A406FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CE76E41FDDA54500A406FA /* ViewController.m */; };
 		29CE76F21FDDA54500A406FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29CE76E91FDDA54500A406FA /* Main.storyboard */; };
 		29CE76F31FDDA54500A406FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29CE76EC1FDDA54500A406FA /* LaunchScreen.storyboard */; };
 		29CE76F41FDDA54500A406FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CE76EE1FDDA54500A406FA /* main.m */; };
 		29CE76F51FDDA54500A406FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CE76EF1FDDA54500A406FA /* AppDelegate.m */; };
+		29CE76F91FDDA82B00A406FA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CE76F81FDDA82B00A406FA /* MainViewController.m */; };
+		29CE76FF1FDDAC9D00A406FA /* Photo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29CE76FE1FDDAC9D00A406FA /* Photo.storyboard */; };
+		29CE77021FDDAD2E00A406FA /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CE77011FDDAD2E00A406FA /* PhotoViewController.m */; };
+		29CE770B1FDDC72500A406FA /* TakePictureViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 29CE770A1FDDC72500A406FA /* TakePictureViewController.mm */; };
 		4CF409D9C5D266712FB26E00 /* libPods-FaceMeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1ACAA53F499E8D670EE1FA0 /* libPods-FaceMeTests.a */; };
 		D725A0CB42028735189A3C66 /* libPods-FaceMe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 356514EA33FEB153024AE4A7 /* libPods-FaceMe.a */; };
 /* End PBXBuildFile section */
@@ -46,14 +49,19 @@
 		29B198D21FDDA21700507B7F /* FaceMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29B198D61FDDA21700507B7F /* FaceMeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceMeUITests.m; sourceTree = "<group>"; };
 		29B198D81FDDA21700507B7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		29CE76E41FDDA54500A406FA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		29CE76E91FDDA54500A406FA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		29CE76EA1FDDA54500A406FA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		29CE76EC1FDDA54500A406FA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29CE76ED1FDDA54500A406FA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		29CE76EE1FDDA54500A406FA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29CE76EF1FDDA54500A406FA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		29CE76F01FDDA54500A406FA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29CE76F71FDDA82B00A406FA /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		29CE76F81FDDA82B00A406FA /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		29CE76FE1FDDAC9D00A406FA /* Photo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Photo.storyboard; sourceTree = "<group>"; };
+		29CE77001FDDAD2E00A406FA /* PhotoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		29CE77011FDDAD2E00A406FA /* PhotoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		29CE77091FDDC72500A406FA /* TakePictureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TakePictureViewController.h; sourceTree = "<group>"; };
+		29CE770A1FDDC72500A406FA /* TakePictureViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TakePictureViewController.mm; sourceTree = "<group>"; };
 		30D88B5A14B12E5AF858673E /* Pods-FaceMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-FaceMe/Pods-FaceMe.release.xcconfig"; sourceTree = "<group>"; };
 		356514EA33FEB153024AE4A7 /* libPods-FaceMe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FaceMe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37111F8863DF90D7EFAA94F1 /* Pods-FaceMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FaceMe/Pods-FaceMe.debug.xcconfig"; sourceTree = "<group>"; };
@@ -146,9 +154,8 @@
 		29CE76E31FDDA54500A406FA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				29CE76E41FDDA54500A406FA /* ViewController.m */,
 				29CE76E51FDDA54500A406FA /* Main */,
-				29CE76EA1FDDA54500A406FA /* ViewController.h */,
+				29CE76FA1FDDAC8400A406FA /* Photo */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -166,6 +173,8 @@
 		29CE76E61FDDA54500A406FA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				29CE76F71FDDA82B00A406FA /* MainViewController.h */,
+				29CE76F81FDDA82B00A406FA /* MainViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -195,6 +204,42 @@
 				29CE76F01FDDA54500A406FA /* Info.plist */,
 			);
 			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		29CE76FA1FDDAC8400A406FA /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				29CE76FB1FDDAC8400A406FA /* Controller */,
+				29CE76FC1FDDAC8400A406FA /* Model */,
+				29CE76FD1FDDAC8400A406FA /* View */,
+			);
+			path = Photo;
+			sourceTree = "<group>";
+		};
+		29CE76FB1FDDAC8400A406FA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				29CE77001FDDAD2E00A406FA /* PhotoViewController.h */,
+				29CE77011FDDAD2E00A406FA /* PhotoViewController.m */,
+				29CE77091FDDC72500A406FA /* TakePictureViewController.h */,
+				29CE770A1FDDC72500A406FA /* TakePictureViewController.mm */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		29CE76FC1FDDAC8400A406FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		29CE76FD1FDDAC8400A406FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				29CE76FE1FDDAC9D00A406FA /* Photo.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		71C83F06D94DC063A511CF30 /* Frameworks */ = {
@@ -336,6 +381,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29CE76F31FDDA54500A406FA /* LaunchScreen.storyboard in Resources */,
+				29CE76FF1FDDAC9D00A406FA /* Photo.storyboard in Resources */,
 				29B198BC1FDDA21700507B7F /* Assets.xcassets in Resources */,
 				29CE76F21FDDA54500A406FA /* Main.storyboard in Resources */,
 			);
@@ -510,7 +556,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				29CE76F41FDDA54500A406FA /* main.m in Sources */,
-				29CE76F11FDDA54500A406FA /* ViewController.m in Sources */,
+				29CE77021FDDAD2E00A406FA /* PhotoViewController.m in Sources */,
+				29CE770B1FDDC72500A406FA /* TakePictureViewController.mm in Sources */,
+				29CE76F91FDDA82B00A406FA /* MainViewController.m in Sources */,
 				29CE76F51FDDA54500A406FA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
