@@ -52,6 +52,10 @@
         UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Video" bundle:nil];
         UIViewController *vc = [storyboard instantiateInitialViewController];
         [[self navigationController] pushViewController:vc animated:YES];
+    } else if (row == 2) {
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"VideoAndAudio" bundle:nil];
+        UIViewController *vc = [storyboard instantiateInitialViewController];
+        [[self navigationController] pushViewController:vc animated:YES];
     }
 }
 

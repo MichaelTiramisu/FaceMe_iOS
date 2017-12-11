@@ -1,20 +1,21 @@
 //
-//  RecordVideoViewController.m
+//  VideoAndAudioViewController.m
 //  FaceMe
 //
-//  Created by SiyangLiu on 2017/12/10.
+//  Created by SiyangLiu on 2017/12/11.
 //  Copyright © 2017年 SiyangLiu. All rights reserved.
 //
 
 #import <opencv2/opencv.hpp>
 #import <opencv2/videoio/cap_ios.h>
 
-#import "RecordVideoViewController.h"
+#import "VideoAndAudioViewController.h"
 #import "ProcessImage.h"
+#import "MediaManager.h"
 
 using namespace cv;
 
-@interface RecordVideoViewController () <CvVideoCameraDelegate>
+@interface VideoAndAudioViewController () <CvVideoCameraDelegate>
 
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 @property (nonatomic, strong) CvVideoCamera *videoCamera;
@@ -22,7 +23,7 @@ using namespace cv;
 
 @end
 
-@implementation RecordVideoViewController
+@implementation VideoAndAudioViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -56,8 +57,23 @@ using namespace cv;
     dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0);
     dispatch_async(queue, ^{
         [self.videoCamera stop];
+//        if (UIVideoAtPathIsCompatibleWithSavedPhotosAlbum([[self.videoCamera videoFileURL] absoluteURL].path)) {
+//            UISaveVideoAtPathToSavedPhotosAlbum([[self.videoCamera videoFileURL] absoluteURL].path, self, @selector(video:didFinishSavingWithError:contextInfo:), NULL);
+//        }
         if (UIVideoAtPathIsCompatibleWithSavedPhotosAlbum([[self.videoCamera videoFileURL] absoluteURL].path)) {
-            UISaveVideoAtPathToSavedPhotosAlbum([[self.videoCamera videoFileURL] absoluteURL].path, self, @selector(video:didFinishSavingWithError:contextInfo:), NULL);
+            AVURLAsset * asset = [AVURLAsset assetWithURL:[[self.videoCamera videoFileURL] absoluteURL]];
+#pragma mark - 这地方是可以优化时间的, 精确到mm
+            CMTime time = [asset duration];
+            int seconds = ceil(time.value/time.timescale);
+            NSURL *audioUrl = [[NSBundle mainBundle] URLForResource:@"pikachu_sounds.mp3" withExtension:nil];
+            [MediaManager addBackgroundMiusicWithVideoUrlStr:[[self.videoCamera videoFileURL] absoluteURL] audioUrl:audioUrl andCaptureVideoWithRange:NSMakeRange(0, seconds) completion:^{
+                NSLog(@"视频合并完成");
+                NSString *mediaFileName = @"MixVideo.mov";
+                NSString *outPutPath = [NSTemporaryDirectory() stringByAppendingPathComponent:mediaFileName];
+                if ([[NSFileManager defaultManager] fileExistsAtPath:outPutPath]) {
+                    UISaveVideoAtPathToSavedPhotosAlbum(outPutPath, self, @selector(video:didFinishSavingWithError:contextInfo:), NULL);
+                }
+            }];
         }
     });
 }
@@ -75,11 +91,7 @@ using namespace cv;
 }
 
 - (void)processImage:(cv::Mat &)image {
-    if (self.stickerIndex == 0) {
-        [self.processer addEarAndBeard:image];
-    } else if (self.stickerIndex == 1) {
-        [self.processer addSmileFace:image];
-    }
+    [self.processer addPikachu:image];
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
