@@ -19,6 +19,17 @@
 		29CE76FF1FDDAC9D00A406FA /* Photo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29CE76FE1FDDAC9D00A406FA /* Photo.storyboard */; };
 		29CE77021FDDAD2E00A406FA /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CE77011FDDAD2E00A406FA /* PhotoViewController.m */; };
 		29CE770B1FDDC72500A406FA /* TakePictureViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 29CE770A1FDDC72500A406FA /* TakePictureViewController.mm */; };
+		29CE770F1FDDD1FA00A406FA /* ProcessImage.mm in Sources */ = {isa = PBXBuildFile; fileRef = 29CE770E1FDDD1F900A406FA /* ProcessImage.mm */; };
+		29CE77181FDDD92F00A406FA /* face_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 29CE77111FDDD92F00A406FA /* face_left.png */; };
+		29CE77191FDDD92F00A406FA /* ear_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 29CE77121FDDD92F00A406FA /* ear_left.png */; };
+		29CE771B1FDDD92F00A406FA /* haarcascade_frontalface_alt2.xml in Resources */ = {isa = PBXBuildFile; fileRef = 29CE77141FDDD92F00A406FA /* haarcascade_frontalface_alt2.xml */; };
+		29CE771C1FDDD92F00A406FA /* ear_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 29CE77151FDDD92F00A406FA /* ear_right.png */; };
+		29CE771D1FDDD92F00A406FA /* face_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 29CE77161FDDD92F00A406FA /* face_right.png */; };
+		29CE77211FDDF42C00A406FA /* beard_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 29CE771F1FDDF42C00A406FA /* beard_right.png */; };
+		29CE77221FDDF42C00A406FA /* beard_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 29CE77201FDDF42C00A406FA /* beard_left.png */; };
+		29CE772C1FDE3E3F00A406FA /* Video.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29CE772B1FDE3E3F00A406FA /* Video.storyboard */; };
+		29CE772F1FDE3F6200A406FA /* VideoViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 29CE772E1FDE3F6200A406FA /* VideoViewController.mm */; };
+		29CE77321FDE3FC000A406FA /* RecordVideoViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 29CE77311FDE3FC000A406FA /* RecordVideoViewController.mm */; };
 		4CF409D9C5D266712FB26E00 /* libPods-FaceMeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1ACAA53F499E8D670EE1FA0 /* libPods-FaceMeTests.a */; };
 		D725A0CB42028735189A3C66 /* libPods-FaceMe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 356514EA33FEB153024AE4A7 /* libPods-FaceMe.a */; };
 /* End PBXBuildFile section */
@@ -62,6 +73,20 @@
 		29CE77011FDDAD2E00A406FA /* PhotoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
 		29CE77091FDDC72500A406FA /* TakePictureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TakePictureViewController.h; sourceTree = "<group>"; };
 		29CE770A1FDDC72500A406FA /* TakePictureViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TakePictureViewController.mm; sourceTree = "<group>"; };
+		29CE770D1FDDD1F900A406FA /* ProcessImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProcessImage.h; sourceTree = "<group>"; };
+		29CE770E1FDDD1F900A406FA /* ProcessImage.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ProcessImage.mm; sourceTree = "<group>"; };
+		29CE77111FDDD92F00A406FA /* face_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face_left.png; sourceTree = "<group>"; };
+		29CE77121FDDD92F00A406FA /* ear_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ear_left.png; sourceTree = "<group>"; };
+		29CE77141FDDD92F00A406FA /* haarcascade_frontalface_alt2.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt2.xml; sourceTree = "<group>"; };
+		29CE77151FDDD92F00A406FA /* ear_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ear_right.png; sourceTree = "<group>"; };
+		29CE77161FDDD92F00A406FA /* face_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face_right.png; sourceTree = "<group>"; };
+		29CE771F1FDDF42C00A406FA /* beard_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beard_right.png; sourceTree = "<group>"; };
+		29CE77201FDDF42C00A406FA /* beard_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beard_left.png; sourceTree = "<group>"; };
+		29CE772B1FDE3E3F00A406FA /* Video.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Video.storyboard; sourceTree = "<group>"; };
+		29CE772D1FDE3F6200A406FA /* VideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		29CE772E1FDE3F6200A406FA /* VideoViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = VideoViewController.mm; sourceTree = "<group>"; };
+		29CE77301FDE3FC000A406FA /* RecordVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecordVideoViewController.h; sourceTree = "<group>"; };
+		29CE77311FDE3FC000A406FA /* RecordVideoViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RecordVideoViewController.mm; sourceTree = "<group>"; };
 		30D88B5A14B12E5AF858673E /* Pods-FaceMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-FaceMe/Pods-FaceMe.release.xcconfig"; sourceTree = "<group>"; };
 		356514EA33FEB153024AE4A7 /* libPods-FaceMe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FaceMe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37111F8863DF90D7EFAA94F1 /* Pods-FaceMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FaceMe/Pods-FaceMe.debug.xcconfig"; sourceTree = "<group>"; };
@@ -129,6 +154,7 @@
 				29CE76E31FDDA54500A406FA /* Classes */,
 				29CE76EB1FDDA54500A406FA /* SupportingFiles */,
 				29B198BB1FDDA21700507B7F /* Assets.xcassets */,
+				29CE77101FDDD92F00A406FA /* Resources */,
 			);
 			path = FaceMe;
 			sourceTree = "<group>";
@@ -156,6 +182,8 @@
 			children = (
 				29CE76E51FDDA54500A406FA /* Main */,
 				29CE76FA1FDDAC8400A406FA /* Photo */,
+				29CE77271FDE3E2B00A406FA /* Video */,
+				29CE770C1FDDD1C600A406FA /* Tools */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -238,6 +266,65 @@
 			isa = PBXGroup;
 			children = (
 				29CE76FE1FDDAC9D00A406FA /* Photo.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		29CE770C1FDDD1C600A406FA /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				29CE770D1FDDD1F900A406FA /* ProcessImage.h */,
+				29CE770E1FDDD1F900A406FA /* ProcessImage.mm */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		29CE77101FDDD92F00A406FA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				29CE77201FDDF42C00A406FA /* beard_left.png */,
+				29CE771F1FDDF42C00A406FA /* beard_right.png */,
+				29CE77111FDDD92F00A406FA /* face_left.png */,
+				29CE77121FDDD92F00A406FA /* ear_left.png */,
+				29CE77141FDDD92F00A406FA /* haarcascade_frontalface_alt2.xml */,
+				29CE77151FDDD92F00A406FA /* ear_right.png */,
+				29CE77161FDDD92F00A406FA /* face_right.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		29CE77271FDE3E2B00A406FA /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				29CE77281FDE3E2B00A406FA /* Controller */,
+				29CE77291FDE3E2B00A406FA /* Model */,
+				29CE772A1FDE3E2B00A406FA /* View */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		29CE77281FDE3E2B00A406FA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				29CE772D1FDE3F6200A406FA /* VideoViewController.h */,
+				29CE772E1FDE3F6200A406FA /* VideoViewController.mm */,
+				29CE77301FDE3FC000A406FA /* RecordVideoViewController.h */,
+				29CE77311FDE3FC000A406FA /* RecordVideoViewController.mm */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		29CE77291FDE3E2B00A406FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		29CE772A1FDE3E2B00A406FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				29CE772B1FDE3E3F00A406FA /* Video.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -381,9 +468,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				29CE76F31FDDA54500A406FA /* LaunchScreen.storyboard in Resources */,
+				29CE77211FDDF42C00A406FA /* beard_right.png in Resources */,
+				29CE772C1FDE3E3F00A406FA /* Video.storyboard in Resources */,
+				29CE771D1FDDD92F00A406FA /* face_right.png in Resources */,
 				29CE76FF1FDDAC9D00A406FA /* Photo.storyboard in Resources */,
+				29CE771B1FDDD92F00A406FA /* haarcascade_frontalface_alt2.xml in Resources */,
+				29CE77181FDDD92F00A406FA /* face_left.png in Resources */,
+				29CE771C1FDDD92F00A406FA /* ear_right.png in Resources */,
 				29B198BC1FDDA21700507B7F /* Assets.xcassets in Resources */,
+				29CE77221FDDF42C00A406FA /* beard_left.png in Resources */,
 				29CE76F21FDDA54500A406FA /* Main.storyboard in Resources */,
+				29CE77191FDDD92F00A406FA /* ear_left.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,8 +653,11 @@
 				29CE76F41FDDA54500A406FA /* main.m in Sources */,
 				29CE77021FDDAD2E00A406FA /* PhotoViewController.m in Sources */,
 				29CE770B1FDDC72500A406FA /* TakePictureViewController.mm in Sources */,
+				29CE77321FDE3FC000A406FA /* RecordVideoViewController.mm in Sources */,
 				29CE76F91FDDA82B00A406FA /* MainViewController.m in Sources */,
+				29CE772F1FDE3F6200A406FA /* VideoViewController.mm in Sources */,
 				29CE76F51FDDA54500A406FA /* AppDelegate.m in Sources */,
+				29CE770F1FDDD1FA00A406FA /* ProcessImage.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -705,12 +803,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				COMPRESS_PNG_FILES = NO;
 				DEVELOPMENT_TEAM = R6FP6GM3TE;
 				INFOPLIST_FILE = "$(SRCROOT)/FaceMe/SupportingFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangguan.FaceMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_PNG_TEXT = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -721,12 +821,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				COMPRESS_PNG_FILES = NO;
 				DEVELOPMENT_TEAM = R6FP6GM3TE;
 				INFOPLIST_FILE = "$(SRCROOT)/FaceMe/SupportingFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangguan.FaceMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_PNG_TEXT = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

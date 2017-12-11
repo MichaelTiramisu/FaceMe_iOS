@@ -69,10 +69,17 @@
                                 <rect key="frame" x="16" y="20" width="343" height="568"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ceV-kY-80V">
-                                <rect key="frame" x="171" y="617" width="32" height="30"/>
+                                <rect key="frame" x="243" y="617" width="32" height="30"/>
                                 <state key="normal" title="Take"/>
                                 <connections>
                                     <action selector="takePictureButtonClick:" destination="PTN-Ms-Koq" eventType="touchUpInside" id="pKU-t2-U4x"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xKq-Zi-rte">
+                                <rect key="frame" x="88" y="617" width="34" height="30"/>
+                                <state key="normal" title="Start"/>
+                                <connections>
+                                    <action selector="startButtonClick:" destination="PTN-Ms-Koq" eventType="touchUpInside" id="7HL-3X-XvT"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -81,8 +88,10 @@
                             <constraint firstItem="ceV-kY-80V" firstAttribute="top" secondItem="lhl-27-aoy" secondAttribute="bottom" constant="29" id="1dV-Yv-nqW"/>
                             <constraint firstItem="lhl-27-aoy" firstAttribute="top" secondItem="WRE-Uq-sCU" secondAttribute="top" id="26z-hy-LBF"/>
                             <constraint firstItem="WRE-Uq-sCU" firstAttribute="trailing" secondItem="lhl-27-aoy" secondAttribute="trailing" constant="16" id="ChY-Gv-I0t"/>
+                            <constraint firstItem="WRE-Uq-sCU" firstAttribute="trailing" secondItem="ceV-kY-80V" secondAttribute="trailing" constant="100" id="MDS-HI-xse"/>
                             <constraint firstItem="WRE-Uq-sCU" firstAttribute="bottom" secondItem="ceV-kY-80V" secondAttribute="bottom" constant="20" id="XU4-xE-Ahf"/>
-                            <constraint firstItem="ceV-kY-80V" firstAttribute="centerX" secondItem="WRE-Uq-sCU" secondAttribute="centerX" id="ZZl-q0-tcW"/>
+                            <constraint firstItem="xKq-Zi-rte" firstAttribute="baseline" secondItem="ceV-kY-80V" secondAttribute="baseline" id="aU0-yK-aY3"/>
+                            <constraint firstItem="xKq-Zi-rte" firstAttribute="leading" secondItem="WRE-Uq-sCU" secondAttribute="leading" constant="88" id="ksq-45-bXa"/>
                             <constraint firstItem="lhl-27-aoy" firstAttribute="leading" secondItem="WRE-Uq-sCU" secondAttribute="leading" constant="16" id="xVi-fA-RLA"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="WRE-Uq-sCU"/>

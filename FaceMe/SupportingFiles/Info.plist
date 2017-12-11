@@ -41,5 +41,7 @@
 	</array>
 	<key>NSCameraUsageDescription</key>
 	<string>大哥，借个相机用一个呗😎</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>照片/视频拍好了，还不让存哦🙂</string>
 </dict>
 </plist>

@@ -1,22 +1,22 @@
 //
-//  PhotoViewController.m
+//  VideoViewController.m
 //  FaceMe
 //
 //  Created by SiyangLiu on 2017/12/10.
 //  Copyright © 2017年 SiyangLiu. All rights reserved.
 //
 
-#import "PhotoViewController.h"
-#import "TakePictureViewController.h"
+#import "VideoViewController.h"
+#import "RecordVideoViewController.h"
 
-@interface PhotoViewController () <UITableViewDataSource, UITableViewDelegate>
+@interface VideoViewController ()
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic, strong) NSArray *stickerNames;
 
 @end
 
-@implementation PhotoViewController
+@implementation VideoViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -49,9 +49,10 @@
 
 #pragma mark - Navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    TakePictureViewController *vc = [segue destinationViewController];
+    RecordVideoViewController *vc = [segue destinationViewController];
     NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
     vc.stickerIndex = indexPath.row;
 }
+
 
 @end
