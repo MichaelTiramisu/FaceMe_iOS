@@ -48,6 +48,10 @@
         UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Photo" bundle:nil];
         UIViewController *vc = [storyboard instantiateInitialViewController];
         [[self navigationController] pushViewController:vc animated:YES];
+    } else if (row == 1) {
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Video" bundle:nil];
+        UIViewController *vc = [storyboard instantiateInitialViewController];
+        [[self navigationController] pushViewController:vc animated:YES];
     }
 }
 

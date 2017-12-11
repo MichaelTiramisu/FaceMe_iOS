@@ -1,5 +1,5 @@
 //
-//  TakePictureViewController.h
+//  VideoViewController.h
 //  FaceMe
 //
 //  Created by SiyangLiu on 2017/12/10.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TakePictureViewController : UIViewController
-
-@property (nonatomic, assign) NSInteger stickerIndex;
+@interface VideoViewController : UIViewController
 
 @end
