@@ -17,5 +17,6 @@ using namespace cv;
 
 - (void)addEarAndBeard:(Mat &)img;
 - (void)addSmileFace:(Mat &)img;
+- (void)addPikachu:(Mat &)img;
 
 @end

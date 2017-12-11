@@ -30,6 +30,14 @@
 		29CE772C1FDE3E3F00A406FA /* Video.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29CE772B1FDE3E3F00A406FA /* Video.storyboard */; };
 		29CE772F1FDE3F6200A406FA /* VideoViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 29CE772E1FDE3F6200A406FA /* VideoViewController.mm */; };
 		29CE77321FDE3FC000A406FA /* RecordVideoViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 29CE77311FDE3FC000A406FA /* RecordVideoViewController.mm */; };
+		29CE77381FDE5F4E00A406FA /* VideoAndAudio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29CE77371FDE5F4E00A406FA /* VideoAndAudio.storyboard */; };
+		29CE773B1FDE5F7D00A406FA /* VideoAndAudioViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 29CE773A1FDE5F7D00A406FA /* VideoAndAudioViewController.mm */; };
+		29CE77401FDE60E100A406FA /* pikachu_face_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 29CE773C1FDE60E000A406FA /* pikachu_face_right.png */; };
+		29CE77411FDE60E100A406FA /* pikachu_ear_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 29CE773D1FDE60E100A406FA /* pikachu_ear_right.png */; };
+		29CE77421FDE60E100A406FA /* pikachu_ear_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 29CE773E1FDE60E100A406FA /* pikachu_ear_left.png */; };
+		29CE77431FDE60E100A406FA /* pikachu_face_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 29CE773F1FDE60E100A406FA /* pikachu_face_left.png */; };
+		29CE77831FDE6CC400A406FA /* pikachu_sounds.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 29CE77821FDE6CC400A406FA /* pikachu_sounds.mp3 */; };
+		29CE77861FDE6CE900A406FA /* MediaManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CE77851FDE6CE900A406FA /* MediaManager.m */; };
 		4CF409D9C5D266712FB26E00 /* libPods-FaceMeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1ACAA53F499E8D670EE1FA0 /* libPods-FaceMeTests.a */; };
 		D725A0CB42028735189A3C66 /* libPods-FaceMe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 356514EA33FEB153024AE4A7 /* libPods-FaceMe.a */; };
 /* End PBXBuildFile section */
@@ -87,6 +95,16 @@
 		29CE772E1FDE3F6200A406FA /* VideoViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = VideoViewController.mm; sourceTree = "<group>"; };
 		29CE77301FDE3FC000A406FA /* RecordVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecordVideoViewController.h; sourceTree = "<group>"; };
 		29CE77311FDE3FC000A406FA /* RecordVideoViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RecordVideoViewController.mm; sourceTree = "<group>"; };
+		29CE77371FDE5F4E00A406FA /* VideoAndAudio.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VideoAndAudio.storyboard; sourceTree = "<group>"; };
+		29CE77391FDE5F7D00A406FA /* VideoAndAudioViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoAndAudioViewController.h; sourceTree = "<group>"; };
+		29CE773A1FDE5F7D00A406FA /* VideoAndAudioViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = VideoAndAudioViewController.mm; sourceTree = "<group>"; };
+		29CE773C1FDE60E000A406FA /* pikachu_face_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pikachu_face_right.png; sourceTree = "<group>"; };
+		29CE773D1FDE60E100A406FA /* pikachu_ear_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pikachu_ear_right.png; sourceTree = "<group>"; };
+		29CE773E1FDE60E100A406FA /* pikachu_ear_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pikachu_ear_left.png; sourceTree = "<group>"; };
+		29CE773F1FDE60E100A406FA /* pikachu_face_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pikachu_face_left.png; sourceTree = "<group>"; };
+		29CE77821FDE6CC400A406FA /* pikachu_sounds.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pikachu_sounds.mp3; sourceTree = "<group>"; };
+		29CE77841FDE6CE900A406FA /* MediaManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaManager.h; sourceTree = "<group>"; };
+		29CE77851FDE6CE900A406FA /* MediaManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaManager.m; sourceTree = "<group>"; };
 		30D88B5A14B12E5AF858673E /* Pods-FaceMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-FaceMe/Pods-FaceMe.release.xcconfig"; sourceTree = "<group>"; };
 		356514EA33FEB153024AE4A7 /* libPods-FaceMe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FaceMe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37111F8863DF90D7EFAA94F1 /* Pods-FaceMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FaceMe/Pods-FaceMe.debug.xcconfig"; sourceTree = "<group>"; };
@@ -183,6 +201,7 @@
 				29CE76E51FDDA54500A406FA /* Main */,
 				29CE76FA1FDDAC8400A406FA /* Photo */,
 				29CE77271FDE3E2B00A406FA /* Video */,
+				29CE77331FDE5F3B00A406FA /* VideoAndAudio */,
 				29CE770C1FDDD1C600A406FA /* Tools */,
 			);
 			path = Classes;
@@ -275,6 +294,8 @@
 			children = (
 				29CE770D1FDDD1F900A406FA /* ProcessImage.h */,
 				29CE770E1FDDD1F900A406FA /* ProcessImage.mm */,
+				29CE77841FDE6CE900A406FA /* MediaManager.h */,
+				29CE77851FDE6CE900A406FA /* MediaManager.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -289,6 +310,11 @@
 				29CE77141FDDD92F00A406FA /* haarcascade_frontalface_alt2.xml */,
 				29CE77151FDDD92F00A406FA /* ear_right.png */,
 				29CE77161FDDD92F00A406FA /* face_right.png */,
+				29CE773E1FDE60E100A406FA /* pikachu_ear_left.png */,
+				29CE773D1FDE60E100A406FA /* pikachu_ear_right.png */,
+				29CE773F1FDE60E100A406FA /* pikachu_face_left.png */,
+				29CE773C1FDE60E000A406FA /* pikachu_face_right.png */,
+				29CE77821FDE6CC400A406FA /* pikachu_sounds.mp3 */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -325,6 +351,40 @@
 			isa = PBXGroup;
 			children = (
 				29CE772B1FDE3E3F00A406FA /* Video.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		29CE77331FDE5F3B00A406FA /* VideoAndAudio */ = {
+			isa = PBXGroup;
+			children = (
+				29CE77341FDE5F3B00A406FA /* Controller */,
+				29CE77351FDE5F3B00A406FA /* Model */,
+				29CE77361FDE5F3B00A406FA /* View */,
+			);
+			path = VideoAndAudio;
+			sourceTree = "<group>";
+		};
+		29CE77341FDE5F3B00A406FA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				29CE77391FDE5F7D00A406FA /* VideoAndAudioViewController.h */,
+				29CE773A1FDE5F7D00A406FA /* VideoAndAudioViewController.mm */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		29CE77351FDE5F3B00A406FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		29CE77361FDE5F3B00A406FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				29CE77371FDE5F4E00A406FA /* VideoAndAudio.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -472,13 +532,19 @@
 				29CE772C1FDE3E3F00A406FA /* Video.storyboard in Resources */,
 				29CE771D1FDDD92F00A406FA /* face_right.png in Resources */,
 				29CE76FF1FDDAC9D00A406FA /* Photo.storyboard in Resources */,
+				29CE77381FDE5F4E00A406FA /* VideoAndAudio.storyboard in Resources */,
 				29CE771B1FDDD92F00A406FA /* haarcascade_frontalface_alt2.xml in Resources */,
 				29CE77181FDDD92F00A406FA /* face_left.png in Resources */,
 				29CE771C1FDDD92F00A406FA /* ear_right.png in Resources */,
+				29CE77431FDE60E100A406FA /* pikachu_face_left.png in Resources */,
 				29B198BC1FDDA21700507B7F /* Assets.xcassets in Resources */,
+				29CE77411FDE60E100A406FA /* pikachu_ear_right.png in Resources */,
 				29CE77221FDDF42C00A406FA /* beard_left.png in Resources */,
 				29CE76F21FDDA54500A406FA /* Main.storyboard in Resources */,
+				29CE77421FDE60E100A406FA /* pikachu_ear_left.png in Resources */,
 				29CE77191FDDD92F00A406FA /* ear_left.png in Resources */,
+				29CE77831FDE6CC400A406FA /* pikachu_sounds.mp3 in Resources */,
+				29CE77401FDE60E100A406FA /* pikachu_face_right.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -650,6 +716,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29CE77861FDE6CE900A406FA /* MediaManager.m in Sources */,
+				29CE773B1FDE5F7D00A406FA /* VideoAndAudioViewController.mm in Sources */,
 				29CE76F41FDDA54500A406FA /* main.m in Sources */,
 				29CE77021FDDAD2E00A406FA /* PhotoViewController.m in Sources */,
 				29CE770B1FDDC72500A406FA /* TakePictureViewController.mm in Sources */,
